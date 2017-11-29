@@ -75,6 +75,9 @@ destination: ../shriradhakrishna-pages/
 production_url:  https://shriradhakrishna.com/
 source_url:  https://github.com/krishnablog/krishnablog.github.io
 
+url: "https://shriradhakrishna.com"
+plugins:
+  - jekyll-sitemap
 exclude:
   - README.md
   - Rakefile
