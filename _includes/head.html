@@ -39,7 +39,7 @@
    "@context":"http://schema.org",
    "@type":"Article",
    "headline":"{{ page.title }}",
-   "url":"https://shriradhakrishna.com/{% if site.baseurl %}{{ site.baseurl }}{% endif %}/{{ page.url | remove: '/' }}",
+   "url":"https://shriradhakrishna.com{% if site.baseurl %}{{ site.baseurl }}{% endif %}/{{ page.url | remove: '/' }}",
    "datePublished":"{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}",
    "dateModified":"{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}",
    "description":"{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}",
@@ -74,7 +74,7 @@
    },
    "image":{  
       "@type":"ImageObject",
-      "url":"https://shriradhakrishna.com/{{ site.baseurl }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}",
+      "url":"https://shriradhakrishna.com{{ site.baseurl }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}",
       "height":"1080",
       "width":"1920"
    },
@@ -98,7 +98,7 @@
         "url": "https://shriradhakrishna.com/{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url | remove: '/' }}",
         "image": {
             "@type": "ImageObject",
-            "url": "https://shriradhakrishna.com/{{ site.baseurl }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}",
+            "url": "https://shriradhakrishna.com{{ site.baseurl }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}",
             "width": 2000,
             "height": 666
         },
