@@ -38,7 +38,7 @@
 {  
    "@context":"http://schema.org",
    "@type":"Article",
-   "headline":"{{ site.title }}",
+   "headline":"{{ page.title }}",
    "url":"{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}/{{ page.url | remove: '/' }}",
    "datePublished":"{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}",
    "dateModified":"{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}",
