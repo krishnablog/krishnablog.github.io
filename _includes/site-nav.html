@@ -1,0 +1,24 @@
+<nav class="site-nav">
+    <div class="site-nav-left">
+        {% if page.current != 'home' %}
+            {% if site.logo %}
+                <a class="site-nav-logo" href="{{ site.url }}{{ site.baseurl }}"><img src="{{ site.baseurl}}{{ site.favicon }}" alt="{{ site.title }}" style="height: 4rem; margin-top: -1rem;" /><div style="position: relative;margin-top: -3rem; margin-left: 5rem; padding: 0 0 0 11px; font-size: 2rem; font-weight: 400; text-shadow: none; transition: none; color: #26a8ed">Shri Radha Krishna</div></a></a>
+            {% else %}
+                <a class="site-nav-logo" href="{{ site.url }}">{{ site.title }}</a>
+            {% endif %}
+        {% endif %}
+        {% if page.navigation %}
+            {% include navigation.html %}
+        {% endif %}
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            {% if site.facebook %}
+                <a class="social-link social-link-fb subscribe-button" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
+            {% endif %}
+        </div>
+        {% if site.subscribers %}
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        {% endif %}
+    </div>
+</nav>
