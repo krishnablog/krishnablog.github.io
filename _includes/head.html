@@ -42,7 +42,7 @@
    "url":"{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url | remove: '/' }}",
    "datePublished":"{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}",
    "dateModified":"{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}",
-   "description":"{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+   "description":"{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}",
    "author":{  
       "@type":"Person",
       "name":"Hanuman",
