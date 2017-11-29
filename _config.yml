@@ -13,7 +13,7 @@ description: Dedicated to the eternal couple Radha Krishna. Radha Krishna love s
 cover: assets/images/radhakrishnahanuman-3.jpg
 logo: assets/images/shriradhakrishna.png
 logo_dark: assets/images/krishna.png
-favicon: /assets/images/krishna.png
+favicon: assets/images/krishna.png
 production_url: https://shriradhakrishna.com/
 source_url: https://github.com/krishnablog/krishnablog.github.io
 
