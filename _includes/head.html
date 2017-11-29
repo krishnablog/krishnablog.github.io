@@ -39,15 +39,23 @@
    "@context":"http://schema.org",
    "@type":"Article",
    "headline":"{{ site.title }}",
-   "url":"{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url | remove: '/' }}",
+   "url":"{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}/{{ page.url | remove: '/' }}",
    "datePublished":"{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}",
    "dateModified":"{% if page.date %}{{ page.date | date_to_xmlschema }}{% elsif post.date %}{{ post.date | date_to_xmlschema }}{% endif %}",
    "description":"{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}",
    "author":{  
       "@type":"Person",
       "name":"Hanuman",
+      "url": "https://shriradhakrishna.net/author/hanuman/",
+      "image":{  
+        "@type":"ImageObject",
+        "url":"https://shriradhakrishna.com/assets/images/icon.png",
+        "height":"192",
+        "width":"192"
+      },
       "sameAs":[
-        "https://facebook.com/shrihanuman"  
+        "https://hanumanchalisa.net",
+        "https://facebook.com/shrihanuman",  
         "https://twitter.com/hanumanblog"
       ]
    },
@@ -55,15 +63,15 @@
         "@type": "Organization",
         "name": "Shri Radha Krishna",
         "sameAs": [
-            "https://twitter.com/radhakrishnablog"
+            "https://facebook.com/radhakrishnablog"
         ],
-        "logo": "{{ site.url }}{{ site.baseurl }}{{ site.logo }}"
+        "logo": "{{ site.url }}{{ site.baseurl }}/{{ site.logo }}"
    },
    "image":{  
       "@type":"ImageObject",
-      "url":"{{ site.url }}{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}",
-      "height":"450",
-      "width":"1000"
+      "url":"{{ site.url }}{{ site.baseurl }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}",
+      "height":"1080",
+      "width":"1920"
    },
    "mainEntityOfPage":{  
       "@type":"WebPage",
