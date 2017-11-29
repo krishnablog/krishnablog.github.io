@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/radhakrishna-2.jpg
+cover:  assets/images/radhakrishna-2-min.jpg
 navigation: True
 title: Radha Krishna Wallpapers Download
 excerpt: Download the best wallpapers of Shri Radha Krishna for your smartphone/PC/tablet. This section contains a huge collection of Radha Krishna images/wallpapers.

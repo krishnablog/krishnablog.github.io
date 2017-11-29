@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/radhakrishna-1.jpg
+cover:  assets/images/radhakrishna-1-min.jpg
 navigation: True
 title: Krishna Story - When Draupadi met Krishna's Queens
 excerpt: Before the Mahabharat war, Yādavas and many other kings met at Kurukṣetra during a solar eclipse. Krishna also met the residents of Vrindavana after a long time and gave them great joy...
