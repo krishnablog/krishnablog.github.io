@@ -5,7 +5,7 @@ cover:  assets/images/krishna_yashoda.jpg
 navigation: True
 title: Why is Krishna blue?
 excerpt: Lord Krishna has been depicted as a baby stealing butter and a charming boy with a flute in his hand and a peacock feather on his head. In all these depictions...
-date: 2017-11-27 04:00:00
+date: 2017-11-27 05:00:00
 tags: [Krishna]
 class: post-template
 subclass: 'Krishna'

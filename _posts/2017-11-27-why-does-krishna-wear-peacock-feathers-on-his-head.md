@@ -5,7 +5,7 @@ cover:  assets/images/krishna4-1.jpg
 navigation: True
 title: Krishna Story - Why does Krishna wear Peacock Feathers on his head
 excerpt: There's a real story behind Krishna wearing peacock feathers on his head. One afternoon, when Krishna woke up from a rest in the forest while his cowherd friends were still asleep ...
-date: 2017-11-27 04:00:00
+date: 2017-11-28 04:00:00
 tags: [Krishna]
 class: post-template
 subclass: 'Krishna'
