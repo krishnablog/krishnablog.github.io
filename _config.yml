@@ -84,3 +84,6 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
+
+gems:
+  - jekyll-redirect-from
